@@ -7,7 +7,7 @@ const Test = require('supertest/lib/test');
 //Connect to a database
 beforeAll(async()=>{
     await mongoose.connect
-    ('mongodb+srv://sonamsoni:5bJqTeOHj6e4jwVH@cluster0.e5c2s4d.mongodb.net/todoapp-tets')
+    ('mongodb//localhost:27017/todoapp-tets')
 });
 
 //Clear the test database before each test case
